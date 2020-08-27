@@ -24,7 +24,7 @@
                 <td>{{ $proveedor->telefono}}</td>
                 <td>{{ $proveedor->email}}</td>
                 <td>
-                    <a href="#" class="text-info" wire:click="edit({{ $proveedor->id }})">
+                    <a href="#" class="text-primary" wire:click="edit({{ $proveedor->id }})">
                     <i class="fas fa-edit fa-fw"></i>
                     </a>                
                 </td>
